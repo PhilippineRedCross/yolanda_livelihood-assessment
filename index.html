@@ -30,13 +30,17 @@
       ga('send', 'pageview');
 
     </script>
-    
+
   </head>
   <body>
 
     <div class="nav-admin">
-      <p class="nav-text"><span id="selected-admin-label">All surveyed provinces</span> 
-      <small>(<span id="selected-survey-count">X</span> of <span id="surveyCount">X</span> surveys conducted)</small></p>
+      <p class="nav-text"><span id="selected-admin-label">All surveyed provinces</span>
+      <small>(<span id="selected-survey-count-baseline">X</span> of
+        <span id="surveyCountBaseline">X</span> baseline,
+        and <span id="selected-survey-count-endline">X</span> of
+        <span id="surveyCountEndline">X</span> endline surveys
+        conducted)</small></p>
       <div class="btn-group">
         <button type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown">
           Select a Province <span class="caret"></span>
@@ -54,7 +58,7 @@
 
     <div class="container">
 
-      
+
 
       <div style="margin-top:120px;"></div>
       <img class="prc-logo pull-left" src="img/PRC-logo.png">
@@ -68,42 +72,28 @@
           <li>To give insight on the impact and effectiveness of HLA designed to support early livelihood recovery</li>
         </ol>
       </p>
-      <p>The livelihood Quality of Life/ Satisfaction survey instrument is designed to collect information on the selected beneficiary level of satisfaction with the assistance received, the extent of their individual recovery and other related outstanding needs. Surveys conducted via mobile data collection using <a target="_blank" href="https://github.com/SEL-Columbia/formhub">formhub</a> and <a target="_blank" href="https://opendatakit.org/">Open Data Kit (ODK)</a>.</p>
-      <p>These results are from the initial survey conducted prior to, or shortly after, disbursement of the livelihood grant. The respondents are a randomly selected sample of beneficiaries. A followup survey with the respondents will be conducted in approximately six months. Please submit questions or feedback by <a href="mailto:daniel.joseph@ifrc.org" target="_blank" title="daniel.joseph@ifrc.org">email</a>.</p>
-      <p><b>Note:</b> Surveys are ongoing.</p>
+      <p>The livelihood Quality of Life/ Satisfaction survey instrument is designed to collect information on the selected beneficiary level of satisfaction with the assistance received, the extent of their individual recovery and other related outstanding needs. Surveys conducted via mobile data collection using <a target="_blank" href="https://github.com/SEL-Columbia/formhub">formhub</a> and <a target="_blank" href="https://opendatakit.org/">Open Data Kit (ODK)</a>. Please submit questions or feedback by <a href="mailto:daniel.joseph@redcross.org" target="_blank" title="daniel.joseph@redcross.org">email</a>.</p>
+      <p>These results are from an initial, first round survey conducted from December 2014 through February 2015. The respondents are a randomly selected sample of beneficiaries. A followup, second round survey with the same respondents began in March 2015 and is ongoing.</p>
+      <hr>
 
       <h4>Legend</h4>
+
+      <p>Top bar is round 1, bottom bar is round 2.</p>
 
       <table class="table-custom" style="margin-top:1px;">
         <colgroup><col style="width:14.2857%"><col style="width:14.2857%"><col style="width:14.2857%"><col style="width:14.2857%"><col style="width:14.2857%"><col style="width:14.2857%"><col style="width:14.2857%"></colgroup>
         <tbody>
           <tr>
-            <td class="square-color agree_strongly"><small>Strongly Agree</small></td>
-            <td class="square-color agree"><small>Agree</small></td>
-            <td class="square-color neither"><small>Neither Agree/Disagree</small></td>
-            <td class="square-color disagree"><small>Disagree</small></td>
-            <td class="square-color disagree_strongly"><small>Strongly Disagree</small></td>
-            <td class="square-color unsure"><small>Unsure</small></td>
-            <td class="square-color na"><small>N/A</small></td>
-          </tr>
-          <tr>
-            <td class="square-color agree_strongly"><small>Lubos na sumasang-ayon (5)</small></td>
-            <td class="square-color agree"><small>Sang-ayon (4)</small></td>
-            <td class="square-color neither"><small>Wala sa anuman (3)</small></td>
-            <td class="square-color disagree"><small>Hindi sang-ayon (2)</small></td>
-            <td class="square-color disagree_strongly"><small>Lubos na hindi sumasang-ayon (1)</small></td>
-            <td class="square-color unsure"><small>Hindi alam</small></td>
-            <td class="square-color na"><small>Hindi naangkop</small></td>
+            <td class="square-color agree_strongly"><small>(5) Strongly Agree;<br>Lubos na sumasang-ayon</small></td>
+            <td class="square-color agree"><small>(4) Agree;<br>Sang-ayon</small></td>
+            <td class="square-color neither"><small>(3) Neither Agree/Disagree;<br>Wala sa anuman</small></td>
+            <td class="square-color disagree"><small>(2) Disagree;<br>Hindi sang-ayon</small></td>
+            <td class="square-color disagree_strongly"><small>(1) Strongly Disagree;<br>Lubos na hindi sumasang-ayon</small></td>
+            <td class="square-color unsure"><small>Unsure;<br>Hindi alam</small></td>
+            <td class="square-color na"><small>N/A;<br>Hindi naangkop</small></td>
           </tr>
         </tbody>
       </table>
-   
-      
-
-    
-    
-    
-    
 
       <div id="sectionA" class="question-section" style="margin-top:60px;">
       <h3>Section A: Effects of Yolanda
@@ -125,7 +115,7 @@
       </div>
 
       <div id="sectionD" class="question-section">
-      <h3>Section D: Income and Expenses <span class="text-tagalog">Kita at Gastusin matapos ang Yolanda</span> 
+      <h3>Section D: Income and Expenses <span class="text-tagalog">Kita at Gastusin matapos ang Yolanda</span>
       </h3>
       </div>
 
